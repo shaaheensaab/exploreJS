@@ -42,7 +42,7 @@ console.log(fruits);
 fruits.push('Watermelon');
 console.log(fruits);
 
-// You and your friends Tom, Jane, Peter and John got their final exam results. Your total score is 85, Tom's total score is 66, Jane's total score is 95, Peter's total score is 56 and John's total score is 40. The grading chart is below-
+// 6. You and your friends Tom, Jane, Peter and John got their final exam results. Your total score is 85, Tom's total score is 66, Jane's total score is 95, Peter's total score is 56 and John's total score is 40. The grading chart is below-
 /**
  * 80 or above A grade.
  * 60 or above B grade.
@@ -52,19 +52,11 @@ console.log(fruits);
  * 
  * Write a program to find you and your friend's grades using if-else.
 */
-// GRADES:
-var A = 80;
-var B = 60;
-var C = 50;
-var D = 40;
-var F = 39;
-// RESULTS:
-var myResult = 85;
-var Tom = 66;
-var Jane = 95;
-var Peter = 56;
-var John = 40;
 
-if(myResult >= 80){
-    console.log(A)
+
+// 7. Target: Display every element of an array..
+var numbers = [20, 43, 40, 19, 30, 12, 21, 22];
+for(var i = 0; i < numbers.length; i++){
+    var number = numbers[i];
+    console.log(number);
 }
