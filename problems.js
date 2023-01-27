@@ -28,3 +28,43 @@ var number = 119;
 var dividingValue = 5;
 var remainderWill = number % dividingValue;
 console.log(remainderWill);
+
+// 5. Find the index of an element and replace it with another element, Remove an element and add another element to an array.
+var fruits = ['Apple', 'Banana', 'Orange'];
+
+var indexB = fruits.indexOf('Banana');
+console.log(indexB);
+fruits[1] = 'Mango';
+console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+fruits.push('Watermelon');
+console.log(fruits);
+
+// You and your friends Tom, Jane, Peter and John got their final exam results. Your total score is 85, Tom's total score is 66, Jane's total score is 95, Peter's total score is 56 and John's total score is 40. The grading chart is below-
+/**
+ * 80 or above A grade.
+ * 60 or above B grade.
+ * 50 or above C grade.
+ * 40 or above D grade.
+ * 39 or less => F grade.
+ * 
+ * Write a program to find you and your friend's grades using if-else.
+*/
+// GRADES:
+var A = 80;
+var B = 60;
+var C = 50;
+var D = 40;
+var F = 39;
+// RESULTS:
+var myResult = 85;
+var Tom = 66;
+var Jane = 95;
+var Peter = 56;
+var John = 40;
+
+if(myResult >= 80){
+    console.log(A)
+}
