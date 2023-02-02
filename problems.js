@@ -60,3 +60,100 @@ for(var i = 0; i < numbers.length; i++){
     var number = numbers[i];
     console.log(number);
 }
+
+// Write a function that will take HOUR as the input parameter and will convert it into MINUTES and will return the result in MINUTES.
+const hour = 72;
+const minutes = hour * 60;
+console.log(hour, "hours =", minutes, "minutes");
+
+// Inch to Feet converter:
+const setInch = 65;
+const gotFeet = setInch / 12;
+console.log(gotFeet);
+
+// convert Inch to Feet with function:
+function myInch(inch){
+    const myFeet = inch / 12;
+    return myFeet;
+}
+let inputHeight = 65;
+let myHeight = myInch(inputHeight);
+console.log(myHeight);
+
+// convert Hour to Minute:
+function gotHour(hours){
+    const giveMinutes = hours * 60;
+    return giveMinutes;
+}
+const inputHour = 24;
+const totalMinutes = gotHour(inputHour);
+console.log(totalMinutes);
+
+// convert Minute to Hour:
+function gotMinutes(minutes){
+    const giveHour = minutes / 60;
+    return giveHour;
+}
+const inputMinutes = 180;
+const totalHour = gotMinutes(inputMinutes);
+console.log(totalHour);
+
+// convert Hour to Day:
+function gotHour(hours){
+    const giveDay = hours / 24;
+    return giveDay;
+}
+const setHour = 24;
+const totalDay = gotHour(setHour);
+console.log(totalDay);
+
+// covert Day to Hour:
+function gotDay(days){
+    const giveMeHour = days * 24;
+    return giveMeHour;
+}
+const inputDay = 365;
+const myTotalHour = gotDay(inputDay);
+console.log(myTotalHour);
+
+// convert Year to Week:
+function gotYear(year){
+    const gotWeeks = year * 52;
+    return gotWeeks;
+}
+const inputYear = 1;
+const totalWeek = gotYear(inputYear);
+console.log(totalWeek);
+
+// convert Miles to Kilometer:
+function gotMiles(miles){
+    const giveKilometer = miles * 1.60934;
+    return giveKilometer;
+}
+
+const inputMiles = 5;
+const totalKilometers = gotMiles(inputMiles);
+console.log(totalKilometers);
+
+// convert Kilometer to Miles:
+function gotKilometer(kilometer){
+    const giveMiles = kilometer * 0.621371;
+    return giveMiles;
+}
+const inputKilometers = 1;
+const totalMiles = gotKilometer(inputKilometers);
+console.log(totalMiles);
+
+
+// getting Odd and Even numbers:
+function isEven(number){
+    const remainder = number % 2;
+    if(remainder === 0){
+        console.log("This number is Even.");
+    }
+    else{
+        console.log("This number is Odd");
+    }
+}
+const inputNumber = 100;
+const checkNumber = isEven(inputNumber);

@@ -1,0 +1,23 @@
+const country = "Bangladesh";
+const age = 52;
+const isIndependent = true;
+const student = {id: 121, class: 11, name: "Agun"};
+const friends = [11, 15, 12, 20, 19, 14, 14, 18, 17];
+function add(num1, num2){
+    return num1 + num2;
+}
+
+console.log(typeof(country));
+console.log(typeof(age));
+console.log(typeof(isIndependent));
+console.log(typeof(student));
+console.log(Array.isArray(friends));
+console.log(typeof(add));
+
+console.log(friends.includes(10));
+console.log(friends.includes(11));
+
+// concatenate:
+const newFriends = [23, 13, 21, 22];
+const allFriends = newFriends.concat(friends);
+console.log(allFriends);

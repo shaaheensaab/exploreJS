@@ -1,13 +1,15 @@
 // :::::::::::PROBLEMS-PRACTICE:::::::::: \\
 /**
-1. What is javaScript? 
-    - javaScript is a programming language that is primarily used for creating interactive and dynamic web pages.
+1. What is JavaScript? 
+    - JavaScript is a programming language that is primarily used for creating interactive and dynamic web pages.
+    - A scripting language that allows to implement complex features on web pages.
+    - Can also be said as a programming language for the web.
 
-2. How does javaScript works?
-    - javaScript is a client-side scripting language. Which means that is runs on the user's browser rather than on a server. It allows web developers to add interactivity, dynamic content, and other advanced feature to websites.
+2. How does JavaScript works?
+    - JavaScript is a client-side scripting language. Which means that is runs on the user's browser rather than on a server. It allows web developers to add interactivity, dynamic content, and other advanced feature to websites.
 
 3. What is Variable?
-    - A javaScript variable is a name of storage/ location.
+    - A JavaScript variable is a name of storage/ location.
 
 4. How does the variable declare?
     - (var myName = "XYZ";) These 5 things inside the bracket need to remember during declaring a variable.
@@ -22,7 +24,7 @@
 
 7. What is Primitive and non primitive data type?
     - Primitive data type: Number, Sting, Boolean, Null, Undefined.
-    - Non-primitive data type: String, Array, Object.
+    - Non-primitive data type: Array, Object.
 
 8. Variable names cannot be reserved word. It should be different from javaScript reserved word.
     - Ex: return, default, case, delete. These are the reserved words.
@@ -100,4 +102,6 @@
     !==: As === checks are two variables' value & datatype equal or not? It works in the same way but it thinks in the reverse way.
     && : It compares multiple statements of a function at a time and if all statement goes true then it works or it stops the function.
     || : It compares multiple statements of a function and if one of the statements goes true then it runs.
+
+24. 
  */
